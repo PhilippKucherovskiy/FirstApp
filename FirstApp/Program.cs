@@ -5,11 +5,13 @@ class MainClass
 	public static void Main(string[] args)
 	{
 
-		string myName;
-		myName = "Philipp";
+        const string MyName = "Philipp";
 
-		Console.WriteLine(myName);
+        Console.WriteLine(MyName);
 
-		Console.ReadKey();
+        Console.WriteLine("\t Привет, \n мир");
+        Console.WriteLine("\t Мне 29 лет");
+        Console.WriteLine("\t My name is \n Philipp");
+        Console.ReadKey();
 	}
 }
