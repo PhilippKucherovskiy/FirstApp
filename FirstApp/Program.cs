@@ -5,13 +5,15 @@ class MainClass
 	public static void Main(string[] args)
 	{
 
-        const string MyName = "Philipp";
+		string MyName = "Philipp";
+		byte MyAge = 29;
+		bool HaveIApet = false;
+		double MyShoeSize = 41.5;
 
-        Console.WriteLine(MyName);
+		Console.WriteLine("My name is " + MyName);
+		Console.WriteLine("MyAge " + MyAge);
+		Console.WriteLine("Do I have a pet? " + HaveIApet);
+		Console.WriteLine("My shoe size is " + MyShoeSize);
 
-        Console.WriteLine("\t Привет, \n мир");
-        Console.WriteLine("\t Мне 29 лет");
-        Console.WriteLine("\t My name is \n Philipp");
-        Console.ReadKey();
 	}
 }
