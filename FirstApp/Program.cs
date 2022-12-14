@@ -18,6 +18,6 @@ class MainClass
 		var zodiac = Console.ReadLine();
 
 		Console.WriteLine("\nТаким образом Ваша анкета выглядит так: \nИмя: \t{0} \nВозраст: \t{1} лет \nДата Вашего рождения: \t{2} \nЗнак Зодиака:\t {3}\n Удачных поисков!",name, age, birthdate, zodiac);
-
+		Console.ReadKey();
 	}
 }
